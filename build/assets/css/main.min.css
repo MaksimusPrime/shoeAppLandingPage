@@ -344,5 +344,35 @@ hr {
   width: 100%;
   left: 0; }
 
-body {
-  background: #ccc; }
+#header {
+  background: url("../img/background.png");
+  background-size: cover;
+  height: 600px;
+  color: white;
+  text-align: center; }
+  #header article {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px; }
+  #header h1 {
+    margin-bottom: 10px;
+    color: white; }
+
+.main-nav {
+  display: flex; }
+  .main-nav li {
+    list-style: none; }
+  .main-nav li:first-child {
+    margin-right: auto; }
+  .main-nav a {
+    color: white;
+    padding: 7px 50px;
+    text-decoration: none;
+    display: block;
+    font-weight: 900;
+    text-transform: uppercase; }
+
+a.download {
+  background: white;
+  color: #00adff;
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5); }
